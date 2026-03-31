@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contacto</h2>
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                <span class="error-msg" id="error-nombre"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com">
+                <span class="error-msg" id="error-email"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                <span class="error-msg" id="error-mensaje"></span>
+            </div>
+
+            <button type="submit" id="btnEnviar">Enviar Mensaje</button>
+            <div id="statusMessage"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

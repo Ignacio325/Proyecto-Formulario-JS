@@ -1,0 +1,8 @@
+body { font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+.container { width: 100%; max-width: 400px; border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input, textarea { width: 100%; padding: 8px; box-sizing: border-box; }
+.error-msg { color: red; font-size: 0.85em; display: none; margin-top: 5px; }
+.invalid input, .invalid textarea { border: 2px solid red; }
+#statusMessage { margin-top: 15px; font-weight: bold; }
